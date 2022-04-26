@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		48608BAA2817094600D672AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48608BA92817094600D672AB /* AppDelegate.swift */; };
 		48608BAC2817094600D672AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48608BAB2817094600D672AB /* SceneDelegate.swift */; };
-		48608BAE2817094600D672AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48608BAD2817094600D672AB /* ViewController.swift */; };
+		48608BAE2817094600D672AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48608BAD2817094600D672AB /* LoginViewController.swift */; };
 		48608BB32817094700D672AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48608BB22817094700D672AB /* Assets.xcassets */; };
 		48608BB62817094700D672AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48608BB42817094700D672AB /* LaunchScreen.storyboard */; };
+		48608BC1281715E200D672AB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48608BC0281715E200D672AB /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48608BA62817094600D672AB /* Bankery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48608BA92817094600D672AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48608BAB2817094600D672AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48608BAD2817094600D672AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48608BAD2817094600D672AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		48608BB22817094700D672AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48608BB52817094700D672AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48608BB72817094700D672AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48608BC0281715E200D672AB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		48608BA82817094600D672AB /* Bankery */ = {
 			isa = PBXGroup;
 			children = (
+				48608BBF281715A400D672AB /* Login */,
+				48608BBE2817157300D672AB /* Files */,
 				48608BA92817094600D672AB /* AppDelegate.swift */,
 				48608BAB2817094600D672AB /* SceneDelegate.swift */,
-				48608BAD2817094600D672AB /* ViewController.swift */,
+			);
+			path = Bankery;
+			sourceTree = "<group>";
+		};
+		48608BBE2817157300D672AB /* Files */ = {
+			isa = PBXGroup;
+			children = (
 				48608BB22817094700D672AB /* Assets.xcassets */,
 				48608BB42817094700D672AB /* LaunchScreen.storyboard */,
 				48608BB72817094700D672AB /* Info.plist */,
 			);
-			path = Bankery;
+			name = Files;
+			sourceTree = "<group>";
+		};
+		48608BBF281715A400D672AB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				48608BAD2817094600D672AB /* LoginViewController.swift */,
+				48608BC0281715E200D672AB /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,8 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48608BAE2817094600D672AB /* ViewController.swift in Sources */,
+				48608BAE2817094600D672AB /* LoginViewController.swift in Sources */,
 				48608BAA2817094600D672AB /* AppDelegate.swift in Sources */,
+				48608BC1281715E200D672AB /* LoginView.swift in Sources */,
 				48608BAC2817094600D672AB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
